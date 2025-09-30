@@ -10,12 +10,12 @@ const PrivacyPolicy = () => {
       
       <main className="w-full max-w-[1200px] px-8 py-16">
         <nav className="text-sm text-gray-600 mb-8">
-          <Link to="/" className="hover:text-primary">Strona główna</Link>
+          <Link to="/" className="hover:text-primary">Startseite</Link>
           <span className="mx-2">&gt;&gt;</span>
-          <span>Polityka Prywatności</span>
+          <span>Datenschutzerklärung</span>
         </nav>
 
-        <h1 className="text-4xl font-bold text-[#4D4D4D] mb-8">Polityka prywatności</h1>
+        <h1 className="text-4xl font-bold text-[#4D4D4D] mb-8">Datenschutzerklärung</h1>
 
         <div className="bg-white rounded-lg p-8 shadow-sm space-y-6">
           <section>

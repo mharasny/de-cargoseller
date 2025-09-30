@@ -12,14 +12,14 @@ const FunctionalitiesSection = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
-    "Dodawanie ładunku",
-    "Zbieranie propozycji cenowych",
-    "Lista ładunków",
-    "Odświeżanie i usuwanie ładunków",
-    "Automatyczny mailing listy ładunków",
-    "Ładunki w mojej firmie",
-    "Integracje",
-    "Statystyki"
+    "Fracht hinzufügen",
+    "Preisvorschläge sammeln",
+    "Frachtliste",
+    "Aktualisieren und Löschen von Frachten",
+    "Automatisches Mailing der Frachtliste",
+    "Frachten in meinem Unternehmen",
+    "Integrationen",
+    "Statistiken"
   ];
 
   const tabImages = [
@@ -34,20 +34,20 @@ const FunctionalitiesSection = () => {
   ];
 
   const tabDescriptions = [
-    "Dodaj ładunek szybciej dzięki opcjom szybkiego wybierania, archiwum czy szablonom, opublikuj nawet na 3 giełdach, uruchom automatyczne odświeżanie ofert i szukanie pojazdów na TIMOCOM, opcjonalnie wyślij mailing ze swoją listą ładunków do swoich zaufanych przewoźników - wszystko w jednym okienku.",
-    "System pobiera propozycje cenowe z giełdy TIMOCOM i kanału mailingowego od Twoich zaufanych przewoźników, dodatkowo pobiera z TIMOCOM oferty wolnych pojazdów w promieniu 100km od miejsca załadunku.",
-    "Główne okno z listą ładunków, pozwoli ci oszczędzić od 50-70% czasu. Z tego miejsca możesz usuwać, odświeżać, dodawać, edytować oferty, przeglądać propozycje cenowe oraz propozycje wolnych pojazdów, finalizować transakcje ze skutkiem na 3 giełdach.",
-    "Cykliczne odświeżenie ładunku to bardzo częsta praktyka u spedytorów uskuteczniająca sprzedaż. U nas proces odświeżania odbywa się automatycznie co 35 min. Opcjonalnie możesz odświeżyć ręcznie. Podobnie wygląda to z usuwaniem ofert - usuwasz wiele ofert lub pojedyncze oferty ze skutkiem na giełdach.",
-    "Powszechna praktyka, czyli wysyłanie maila z listą ładunków do swoich zaufanych przewoźników. Obecnie oddzielna czynność do wykonania obok wpisywania na giełdy. Nasz integrator sprawia, że tą czynność wykonasz przy okazji publikowania na giełdy oszczędzając czas i robiąc to komfortowo jak nigdy dotąd. System sam wygeneruje spersonalizowanego maila z wykazem ładunków.",
-    "Łatwo sprawdź co w Twojej firmie (we wszystkich oddziałach) jest obecnie wystawione na sprzedaż i jakimi kanałami sprzedaży. Możesz łatwo skontaktować się ze współpracownikiem w sprawie ładunku oraz wspierać kolegów/koleżanki wystawiając ładunek jako swój bez przepisywania go.",
-    "Integracja Twojego konta użytkownika z giełdami zajmie Ci mniej niż 3 minuty i jesteś gotowy optymalizować proces pracy i osiągać lepsze efekty w sprzedaży. Możesz również zintegrować swój system TMS z naszym systemem - to jedna prosta i szybka integracja zamiast rozbudowanych, oddzielnych integracji z każdą z giełd. Staniemy się dla Ciebie HUB'em integracyjnym - to nowoczesne podejście w świecie cyfrowych rozwiązań, które przyspiesza integracje i bardzo redukuje jej koszt.",
-    "Przejrzyj statystyki pokazujące jaki był łączny wolumen ładunków, które zostały dodane na sprzedaż. Dowiedz się, ile jest niesprzedanych ładunków i optymalizuj ten obszar. Porównuj miesiące, lata, przeglądaj dane o marży i przychodzie w rozbiciu na oddziały, całą firmę."
+    "Fügen Sie Fracht schneller hinzu dank Schnellauswahloptionen, Archiv oder Vorlagen, veröffentlichen Sie auf bis zu 3 Börsen, aktivieren Sie automatische Aktualisierung von Angeboten und Fahrzeugsuche auf TIMOCOM, senden Sie optional ein Mailing mit Ihrer Frachtliste an Ihre vertrauenswürdigen Transportunternehmen - alles in einem Fenster.",
+    "Das System holt Preisvorschläge von der TIMOCOM-Börse und vom Mailing-Kanal Ihrer vertrauenswürdigen Transportunternehmen ab, zusätzlich holt es von TIMOCOM Angebote für freie Fahrzeuge im Umkreis von 100 km vom Beladeort.",
+    "Das Hauptfenster mit der Frachtliste spart Ihnen 50-70% der Zeit. Von hier aus können Sie Angebote löschen, aktualisieren, hinzufügen, bearbeiten, Preisvorschläge und Vorschläge für freie Fahrzeuge durchsehen, Transaktionen mit Auswirkung auf 3 Börsen abschließen.",
+    "Die zyklische Aktualisierung von Frachten ist eine sehr häufige Praxis bei Spediteuren, die den Verkauf erleichtert. Bei uns erfolgt der Aktualisierungsprozess automatisch alle 35 Minuten. Optional können Sie manuell aktualisieren. Ähnlich verhält es sich mit dem Löschen von Angeboten - Sie löschen viele oder einzelne Angebote mit Auswirkung auf die Börsen.",
+    "Gängige Praxis: das Versenden einer E-Mail mit der Frachtliste an Ihre vertrauenswürdigen Transportunternehmen. Derzeit eine separate Tätigkeit neben der Eingabe auf Börsen. Unser Integrator ermöglicht es Ihnen, diese Tätigkeit beim Veröffentlichen auf Börsen durchzuführen, Zeit zu sparen und dies komfortabler als je zuvor zu tun. Das System generiert automatisch eine personalisierte E-Mail mit der Frachtliste.",
+    "Überprüfen Sie einfach, was in Ihrem Unternehmen (in allen Niederlassungen) derzeit zum Verkauf angeboten wird und über welche Vertriebskanäle. Sie können sich leicht mit einem Mitarbeiter bezüglich einer Fracht in Verbindung setzen und Kollegen unterstützen, indem Sie eine Fracht als Ihre eigene veröffentlichen, ohne sie neu eingeben zu müssen.",
+    "Die Integration Ihres Benutzerkontos mit Börsen dauert weniger als 3 Minuten und Sie sind bereit, den Arbeitsprozess zu optimieren und bessere Verkaufsergebnisse zu erzielen. Sie können auch Ihr TMS-System mit unserem System integrieren - das ist eine einfache und schnelle Integration anstelle von umfangreichen, separaten Integrationen mit jeder Börse. Wir werden für Sie zum Integrations-HUB - ein moderner Ansatz in der Welt digitaler Lösungen, der Integrationen beschleunigt und deren Kosten erheblich reduziert.",
+    "Überprüfen Sie Statistiken, die das Gesamtvolumen der zum Verkauf hinzugefügten Frachten zeigen. Erfahren Sie, wie viele unverkaufte Frachten es gibt, und optimieren Sie diesen Bereich. Vergleichen Sie Monate, Jahre, durchsuchen Sie Daten zu Margen und Einnahmen aufgeschlüsselt nach Niederlassungen und dem gesamten Unternehmen."
   ];
 
   return (
     <section id="funkcjonalnosci" className="w-full max-w-[1520px] mt-[131px] max-md:max-w-full max-md:mt-10 scroll-mt-24">
       <h2 className="text-czarny text-center text-[42px] font-barlow-condensed font-semibold tracking-[1.26px] max-md:max-w-full">
-        Funkcjonalności
+        Funktionalitäten
       </h2>
       <div className="flex w-full flex-col items-stretch text-lg text-[#4E4D4D] font-normal mt-20 max-md:max-w-full max-md:mt-10">
         <div className="flex w-full items-stretch gap-[40px_60px] flex-wrap rounded-2xl max-md:max-w-full">

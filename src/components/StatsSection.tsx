@@ -40,43 +40,43 @@ const StatsSection = () => {
   const stats = [
     {
       icon: carIconNew,
-      title: "3 giełdy",
-      description: "Dodaj ofertę jeden raz, a my opublikujemy ją na giełdach Trans, TIMOCOM, Teleroute"
+      title: "3 Börsen",
+      description: "Fügen Sie ein Angebot einmal hinzu und wir veröffentlichen es auf den Börsen Trans, TIMOCOM, Teleroute"
     },
     {
       icon: timeIconNew,
       title: "70%",
-      description: "O tyle zredukujemy czas poświęcany na zarządzanie ofertami na giełdach"
+      description: "Um so viel reduzieren wir die Zeit für die Verwaltung von Angeboten auf Börsen"
     },
     {
       icon: costIcon,
-      title: "50k zł",
-      description: "To koszt pracy wpisania 67 000 ofert na kilka giełd, zredukujemy to o min. 50%"
+      title: "50k €",
+      description: "Das sind die Arbeitskosten für die Eingabe von 67.000 Angeboten auf mehreren Börsen, wir reduzieren dies um mindestens 50%"
     },
     {
       icon: clickIcon,
       title: "1 x",
-      description: "Kliknij raz, aby odświeżyć lub usunąć wiele ofert na 3 giełdach naraz"
+      description: "Klicken Sie einmal, um viele Angebote auf 3 Börsen gleichzeitig zu aktualisieren oder zu löschen"
     },
     {
       icon: implementationIcon,
-      title: "30 min.",
-      description: "Tylko tyle zajmie wdrożenie nowego narzędzia w firmie/zespole."
+      title: "30 Min.",
+      description: "So lange dauert die Implementierung des neuen Tools im Unternehmen/Team."
     },
     {
       icon: publishIcon,
-      title: "< 1 min.",
-      description: "Opublikujesz ofertę na 3 giełdy + wyślesz mailing z listą ładunków"
+      title: "< 1 Min.",
+      description: "Sie veröffentlichen ein Angebot auf 3 Börsen + versenden ein Mailing mit der Ladungsliste"
     },
     {
       icon: findIcon,
-      title: "0 min.",
-      description: "Nie poświęcisz minuty na szukanie wolnych pojazdów, a zobaczysz wyniki z 2 giełd"
+      title: "0 Min.",
+      description: "Sie verbringen keine Minute mit der Suche nach freien Fahrzeugen, aber Sie sehen Ergebnisse von 2 Börsen"
     },
     {
       icon: priceIcon,
-      title: "~ 29zł",
-      description: "To średnia opłata miesięczna za konto użytkownika w CARGOseller"
+      title: "~ 10€",
+      description: "Das ist die durchschnittliche monatliche Gebühr für ein Benutzerkonto bei CARGOseller"
     }
   ];
 
@@ -87,7 +87,7 @@ const StatsSection = () => {
           cargo
         </span>
         <span style={{color: '#66BC98', fontSize: '42px', fontWeight: '600', letterSpacing: '1.26px', textTransform: 'lowercase'}}>seller</span>
-        <span style={{color: '#4D4D4D', fontSize: '42px', fontWeight: '600', letterSpacing: '1.26px', textTransform: 'lowercase'}}> w liczbach</span>
+        <span style={{color: '#4D4D4D', fontSize: '42px', fontWeight: '600', letterSpacing: '1.26px', textTransform: 'lowercase'}}> in Zahlen</span>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-20 max-md:mt-10">
         {stats.map((stat, index) => (
