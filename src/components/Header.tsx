@@ -9,17 +9,19 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const languages = [
-  { code: 'gb', name: 'English', url: 'https://cargoseller.co.uk', flag: '🇬🇧' },
   { code: 'at', name: 'Österreich', url: 'https://cargoseller.at', flag: '🇦🇹' },
-  { code: 'nl', name: 'Nederland', url: 'https://cargoseller.nl', flag: '🇳🇱' },
-  { code: 'pl', name: 'Polska', url: 'https://cargoseller.pl', flag: '🇵🇱' },
-  { code: 'cz', name: 'Česko', url: 'https://cargoseller.cz', flag: '🇨🇿' },
-  { code: 'sk', name: 'Slovensko', url: 'https://cargoseller.sk', flag: '🇸🇰' },
-  { code: 'es', name: 'Español', url: 'https://cargoseller.es', flag: '🇪🇸' },
-  { code: 'lt', name: 'Lietuvių', url: 'https://cargoseller.lt', flag: '🇱🇹' },
-  { code: 'be', name: 'Belgique', url: 'https://cargoseller.be', flag: '🇧🇪' },
-  { code: 'fr', name: 'Français', url: 'https://cargoseller.fr', flag: '🇫🇷' },
-  { code: 'de', name: 'Deutsch', url: 'https://cargoseller.de', flag: '🇩🇪', active: true },
+  { code: 'be', name: 'Belgien', url: 'https://cargoseller.be', flag: '🇧🇪' },
+  { code: 'cz', name: 'Tschechien', url: 'https://cargoseller.cz', flag: '🇨🇿' },
+  { code: 'fr', name: 'Frankreich', url: 'https://cargoseller.fr', flag: '🇫🇷' },
+  { code: 'es', name: 'Spanien', url: 'https://cargoseller.es', flag: '🇪🇸' },
+  { code: 'nl', name: 'Niederlande', url: 'https://cargoseller.nl', flag: '🇳🇱' },
+  { code: 'lt', name: 'Litauen', url: 'https://cargoseller.lt', flag: '🇱🇹' },
+  { code: 'de', name: 'Deutschland', url: 'https://cargoseller.de', flag: '🇩🇪', active: true },
+  { code: 'pl', name: 'Polen', url: 'https://cargoseller.pl', flag: '🇵🇱' },
+  { code: 'ro', name: 'Rumänien', url: 'https://cargoseller.ro', flag: '🇷🇴' },
+  { code: 'sk', name: 'Slowakei', url: 'https://cargoseller.sk', flag: '🇸🇰' },
+  { code: 'gb', name: 'Vereinigtes Königreich', url: 'https://cargoseller.co.uk', flag: '🇬🇧' },
+  { code: 'it', name: 'Italien', url: 'https://cargoseller.it', flag: '🇮🇹' },
 ];
 
 const Header = () => {
