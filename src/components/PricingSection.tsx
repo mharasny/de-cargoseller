@@ -110,7 +110,7 @@ const PricingSection = () => {
     {
       planName: "Corporate",
       price: "200 € / Monat",
-      usersIncluded: "30 Benutzer im Preis inbegriffen",
+      usersIncluded: "20 Benutzer im Preis inbegriffen",
       additionalUserPrice: "10 € (netto) Gebühr für zusätzlichen Benutzer",
       iconSrc: "https://api.builder.io/api/v1/image/assets/73b29f1caf414e8dadec59a4cd659ee3/5c468d4585227c5ae72da303a995662feeb037de?placeholderIfAbsent=true"
     }
